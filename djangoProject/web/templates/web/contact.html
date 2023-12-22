@@ -1,0 +1,43 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+<div class="row overflow-auto">
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="height: 400px;">
+                            <img src="{% static 'cont_1.jpg' %}" alt="Секретарь" style="height: 200px; width: 200px;" class="rounded mx-auto d-block">
+                            <div class="card-body">
+                                <h2 class="card-title" style="color: emphasis;">Секретарь Арахис</h2>
+                                <p class="card-text fst-italic" style="color: emphasis;">7-800-000-00-00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="height: 400px;">
+                            <img src="{% static 'cont_2.jpg' %}" alt="Директор" style="height: 200px; width: 200px;" class="rounded mx-auto d-block">
+                            <div class="card-body">
+                                <h2 class="card-title" style="color: emphasis;">Директор Фундук</h2>
+                                <p class="card-text fst-italic" style="color: emphasis;">7-800-000-00-00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="height: 400px;">
+                            <img src="{% static 'cont_3.jpg' %}" alt="Работник" style="height: 200px; width: 200px;" class="rounded mx-auto d-block">
+                            <div class="card-body">
+                                <h2 class="card-title" style="color: emphasis;">Работник Жёлудь</h2>
+                                <p class="card-text fst-italic" style="color: emphasis;">7-800-000-00-00</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+            </div>
+{% endblock %}

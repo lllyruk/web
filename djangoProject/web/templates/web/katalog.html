@@ -1,0 +1,49 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+<div class="row overflow-auto">
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="height: 600px;">
+                            <img src="{% static 'mindal-1.png' %}" alt="Миндаль" style="height: 200px; width: 200px;" class="rounded mx-auto d-block">
+                            <div class="card-body">
+                                <h2 class="card-title" style="color: emphasis;">Миндаль</h2>
+                                <p class="card-text" style="color: emphasis;">Цена: <span style="color: emphasis;">1196.00</span> ₽</p>
+                                <p class="card-text fst-italic" style="color: emphasis;">Нежный вкус и богатое содержание белка, жиров, витаминов и минералов. </p>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-dark">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="height: 600px;">
+                            <img src="{% static 'kesh.png' %}" alt="Кешью" style="height: 200px; width: 200px;" class="rounded mx-auto d-block">
+                            <div class="card-body">
+                                <h2 class="card-title" style="color: emphasis;">Кешью</h2>
+                                <p class="card-text" style="color: emphasis;">Цена: <span style="color: emphasis;">1252.00</span> ₽</p>
+                                <p class="card-text fst-italic" style="color: emphasis;"> Богатый запас белка, железа, магния, цинка и других питательных веществ.</p>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-dark">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="height: 600px;">
+                            <img src="{% static 'grec.png' %}" alt="Грецкий орех" style="height: 200px; width: 200px;" class="rounded mx-auto d-block">
+                            <div class="card-body">
+                                <h2 class="card-title" style="color: emphasis;">Грецкий орех</h2>
+                                <p class="card-text" style="color: emphasis;">Цена: <span style="color: emphasis;">1679.00</span> ₽</p>
+                                <p class="card-text fst-italic" style="color: emphasis;">Обладает выразительным вкусом и является богатым источником антиоксидантов, белка, жиров, витаминов и минералов, таких как омега-3 жирные кислоты, медь и магний.</p>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-dark">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+            </div>
+{% endblock %}
